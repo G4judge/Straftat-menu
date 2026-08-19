@@ -129,7 +129,7 @@ namespace strafthot.Features
             }
 
 
-            if (Input.GetKeyDown(KeyCode.LeftAlt))
+            if (Input.GetKeyDown(KeyCode.Y))
             {
                 Config.Instance.Aimbot = !Config.Instance.Aimbot;
                 _isEnabled = Config.Instance.Aimbot;
