@@ -104,7 +104,7 @@ namespace strafthot
             if (_showCombat)
             {
                 GUILayout.BeginVertical(GUI.skin.box);
-                Aimbot = GUILayout.Toggle(Aimbot, "Aimbot [LEFT ALT]", _toggleStyle);
+                Aimbot = GUILayout.Toggle(Aimbot, "Aimbot [LETTER Y]", _toggleStyle);
                 AutoShoot = GUILayout.Toggle(AutoShoot, "Auto Shoot", _toggleStyle);
                 GUILayout.EndVertical();
             }
